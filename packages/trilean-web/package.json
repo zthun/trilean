@@ -1,6 +1,6 @@
 {
   "name": "@zthun/trilean-web",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A documentation website for @zthun/trilean.",
   "author": "Anthony Bonta",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@zthun/trilean": "^1.0.0",
+    "@zthun/trilean": "^1.1.0",
     "typedoc": "^0.25.12",
     "typedoc-plugin-extras": "^3.0.0",
     "typescript": "~5.4.3"
