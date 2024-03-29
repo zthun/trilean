@@ -1,0 +1,93 @@
+version: 2.1
+
+executors:
+  system:
+    machine:
+      image: ubuntu-2004:202111-02
+
+commands:
+  run_docker_target:
+    parameters:
+      target:
+        type: string
+    steps:
+      - checkout
+      - run: mkdir .secrets
+      - run: echo $GIT_CREDENTIALS >> .secrets/.git-credentials
+      - run: echo $NPM_CREDENTIALS >> .secrets/.npmrc
+      - run: ls -al .secrets
+      - run:
+          command: |
+            export DOCKER_BUILDKIT=1
+            docker build --target <<parameters.target>> --secret id=GIT_CREDENTIALS,src=.secrets/.git-credentials --secret id=NPM_CREDENTIALS,src=.secrets/.npmrc --progress=plain .
+      - run: rm -fr .secrets
+
+jobs:
+  analyze:
+    executor: system
+    steps:
+      - run_docker_target:
+          target: analyze
+
+  test:
+    executor: system
+    steps:
+      - run_docker_target:
+          target: test
+
+  check:
+    executor: system
+    steps:
+      - run_docker_target:
+          target: check
+
+  build:
+    executor: system
+    steps:
+      - run_docker_target:
+          target: build
+
+  release:
+    executor: system
+    steps:
+      - run_docker_target:
+          target: release
+
+  dockerize:
+    executor: system
+    steps:
+      - checkout
+      - run:
+          command: |
+            export DOCKER_BUILDKIT=1
+            docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+            docker buildx create --use
+            docker buildx build --target trilean-web -t zthun/trilean-web:latest -t zthun/trilean-web:$(npm show @zthun/trilean-web version) --progress=plain --platform linux/arm64,linux/amd64 --push .
+
+workflows:
+  make:
+    jobs:
+      - analyze
+      - test
+      - check
+      - build:
+          filters:
+            branches:
+              ignore:
+                - latest
+      - release:
+          context:
+            - credentials
+          requires:
+            - analyze
+            - check
+            - test
+          filters:
+            branches:
+              only:
+                - latest
+      - dockerize:
+          context:
+            - credentials
+          requires:
+            - release

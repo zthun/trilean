@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "cucumber.features": ["packages/**/features/**/*.feature"],
+  "cucumber.glue": ["packages/**/features/**/*.ts"],
+  "testing.automaticallyOpenPeekView": "never"
+}
