@@ -2629,14 +2629,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/trilean-web@workspace:packages/trilean-web"
   dependencies:
-    "@zthun/trilean": "npm:^1.0.0"
+    "@zthun/trilean": "npm:^1.1.0"
     typedoc: "npm:^0.25.12"
     typedoc-plugin-extras: "npm:^3.0.0"
     typescript: "npm:~5.4.3"
   languageName: unknown
   linkType: soft
 
-"@zthun/trilean@npm:^1.0.0, @zthun/trilean@workspace:packages/trilean":
+"@zthun/trilean@npm:^1.1.0, @zthun/trilean@workspace:packages/trilean":
   version: 0.0.0-use.local
   resolution: "@zthun/trilean@workspace:packages/trilean"
   dependencies:
