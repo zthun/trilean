@@ -1,0 +1,12 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "out": "./dist",
+  "categorizeByGroup": true,
+  "entryPointStrategy": "packages",
+  "entryPoints": ["../*"],
+  "exclude": ["./"],
+  "excludeNotDocumented": true,
+  "name": "Trilean",
+  "plugin": ["typedoc-plugin-extras"],
+  "favicon": "public/images/svg/trilean.svg"
+}

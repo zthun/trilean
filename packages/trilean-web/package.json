@@ -1,0 +1,29 @@
+{
+  "name": "@zthun/trilean-web",
+  "version": "1.0.0",
+  "description": "A documentation website for @zthun/trilean.",
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/trilean",
+    "directory": "packages/trilean-web"
+  },
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "typedoc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@zthun/trilean": "^1.0.0",
+    "typedoc": "^0.25.12",
+    "typedoc-plugin-extras": "^3.0.0",
+    "typescript": "~5.4.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false
+}
