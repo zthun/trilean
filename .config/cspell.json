@@ -3,7 +3,15 @@
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
   "language": "en",
   "caseSensitive": false,
-  "words": ["Bonta", "buildkit", "buildx", "dockerhub", "trilean", "zthun"],
+  "words": [
+    "Bonta",
+    "buildkit",
+    "buildx",
+    "commitlint",
+    "dockerhub",
+    "trilean",
+    "zthun"
+  ],
   "dictionaries": [
     "bash",
     "companies",
