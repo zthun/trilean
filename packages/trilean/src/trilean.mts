@@ -1,18 +1,40 @@
 /**
+ * The indeterminate type.
+ *
+ * Note that the indeterminate type is officially a string
+ * here instead of null.  This is by design since null
+ * is considered to have no value.
+ *
+ * Instead of checking for the indeterminate string, always
+ * make sure to use ZTrilean.isIndeterminate(val) to check
+ * for this type.
+ *
+ * When setting the indeterminate value, use
+ * ZTrilean.Indeterminate as the value to set.
+ *
+ * @example
+ *
+ * ```ts
+ * const value: indeterminate = ZTrilean.Indeterminate;
+ * ```
+ */
+export type indeterminate = 'indeterminate';
+
+/**
  * Represents a tri logic state.
  *
- * See {@link ZTrilean.Indeterminate} for what the symbol value should be.
+ * See {@link indeterminate} for what the symbol value should be.
  */
-export type trilean = boolean | symbol;
+export type trilean = boolean | indeterminate;
 
 /**
  * A utility class for trilean values.
  */
 export abstract class ZTrilean {
   /**
-   * A unique value for the third, indeterminate, state.
+   * A constant value that represents an indeterminate value.
    */
-  public static readonly Indeterminate = Symbol('indeterminate');
+  public static readonly Indeterminate: indeterminate = 'indeterminate';
 
   /**
    * Converts a trilean value to a string.
@@ -25,7 +47,7 @@ export abstract class ZTrilean {
    *        and indeterminate if x is the indeterminate symbol.
    */
   public static stringify(x: trilean): string {
-    return ZTrilean.isIndeterminate(x) ? x.description! : String(x);
+    return String(x);
   }
 
   /**
@@ -72,7 +94,7 @@ export abstract class ZTrilean {
   /**
    * Gets whether val is the indeterminate value.
    */
-  public static isIndeterminate(val: trilean): val is symbol {
+  public static isIndeterminate(val: trilean): val is indeterminate {
     return val === ZTrilean.Indeterminate;
   }
 
