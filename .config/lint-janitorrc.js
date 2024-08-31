@@ -9,7 +9,7 @@ const generated = [
 ];
 const partialGenerated = ['cspell.json', 'lerna.json'];
 
-const esFiles = ['*.js', '*.ts', 'packages/**/src/**/*.ts', 'packages/**/src/**/*.mts'];
+const esFiles = ['*.ts', 'packages/**/src/**/*.ts', 'packages/**/src/**/*.mts'];
 const markdownFiles = ['*.md', 'packages/**/*.md'];
 const jsonFiles = ['*.json', 'packages/**/*.json'];
 const yamlFiles = ['.circleci/config.yml'];

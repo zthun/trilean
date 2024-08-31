@@ -1,0 +1,6 @@
+{
+  "extends": "@zthun/eslint-config",
+  "env": {
+    "node": true
+  }
+}

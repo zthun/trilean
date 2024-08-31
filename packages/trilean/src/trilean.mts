@@ -18,7 +18,7 @@
  * const value: indeterminate = ZTrilean.Indeterminate;
  * ```
  */
-export type indeterminate = 'indeterminate';
+export type indeterminate = "indeterminate";
 
 /**
  * Represents a tri logic state.
@@ -34,7 +34,7 @@ export abstract class ZTrilean {
   /**
    * A constant value that represents an indeterminate value.
    */
-  public static readonly Indeterminate: indeterminate = 'indeterminate';
+  public static readonly Indeterminate: indeterminate = "indeterminate";
 
   /**
    * Converts a trilean value to a string.
@@ -62,16 +62,19 @@ export abstract class ZTrilean {
    *        The parsed trilean value or fallback if str is not a valid
    *        trilean value.
    */
-  public static parse(str: string | null | undefined, fallback: trilean = false): trilean {
-    if (str?.toUpperCase().localeCompare('TRUE') === 0) {
+  public static parse(
+    str: string | null | undefined,
+    fallback: trilean = false,
+  ): trilean {
+    if (str?.toUpperCase().localeCompare("TRUE") === 0) {
       return true;
     }
 
-    if (str?.toUpperCase().localeCompare('FALSE') === 0) {
+    if (str?.toUpperCase().localeCompare("FALSE") === 0) {
       return false;
     }
 
-    if (str?.toUpperCase().localeCompare('INDETERMINATE') === 0) {
+    if (str?.toUpperCase().localeCompare("INDETERMINATE") === 0) {
       return ZTrilean.Indeterminate;
     }
 
@@ -88,7 +91,7 @@ export abstract class ZTrilean {
    *        True if val is a trilean value.  False otherwise.
    */
   public static is(val: any): val is trilean {
-    return typeof val === 'boolean' || ZTrilean.isIndeterminate(val);
+    return typeof val === "boolean" || ZTrilean.isIndeterminate(val);
   }
 
   /**
@@ -127,7 +130,7 @@ export abstract class ZTrilean {
       return val;
     }
 
-    if (typeof val === 'string') {
+    if (typeof val === "string") {
       return ZTrilean.parse(val, fallback);
     }
 

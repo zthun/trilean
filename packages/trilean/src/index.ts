@@ -1,2 +1,2 @@
-export * from './intrinsic.mjs';
-export * from './trilean.mjs';
+export * from "./intrinsic.mjs";
+export * from "./trilean.mjs";
