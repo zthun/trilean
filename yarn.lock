@@ -2251,12 +2251,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.5.1":
+"@types/node@npm:*":
   version: 22.5.1
   resolution: "@types/node@npm:22.5.1"
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10c0/35373176d8a1d4e16004a1ed303e68d39e4c6341024dc056f2577982df98c1a045a6b677f12ed557796f09bbf7d621f428f6874cc37ed28f7b336fa604b5f6a6
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.5.2":
+  version: 22.5.2
+  resolution: "@types/node@npm:22.5.2"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/624a7fd76229eacc6c158eb3b9afd55b811d7f01976c5f92c630d5b9d47047cc218928c343988484a165ac400e5eb6fe70ea300fc7242deeb0e920c7724290f6
   languageName: node
   linkType: hard
 
@@ -2596,9 +2605,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/eslint-config@npm:^17.0.1":
-  version: 17.0.1
-  resolution: "@zthun/eslint-config@npm:17.0.1"
+"@zthun/eslint-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/eslint-config@npm:17.0.3"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^8.3.0"
     "@typescript-eslint/parser": "npm:^8.3.0"
@@ -2607,46 +2616,48 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-tsdoc: "npm:^0.3.0"
   peerDependencies:
-    eslint: ^8.5.0
-    prettier: ^3.3.3
-  checksum: 10c0/7ea6c99ace6945e4a5c87c59f299e8d88fbb5446bfaf627d2df6c4153cd6298f8e5e531cb09fed363fc534b44025c90e66c35b2b0c69ffb8a50843ad80ec86a9
+    eslint: ^8.0.0
+    prettier: ^3.0.0
+    typescript: ^5.0.0
+  checksum: 10c0/19ca29423ac261c0d799fd6ae125f9ad36bfa4222a95fcc99c9751359fb4a6b4128f3f769ccef373710afcaad062987e84e9ee7f7f1e9f64f6fc3659286d43c4
   languageName: node
   linkType: hard
 
-"@zthun/eslint-react-config@npm:^17.0.1":
-  version: 17.0.1
-  resolution: "@zthun/eslint-react-config@npm:17.0.1"
+"@zthun/eslint-react-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/eslint-react-config@npm:17.0.3"
   dependencies:
-    "@zthun/eslint-config": "npm:^17.0.1"
+    "@zthun/eslint-config": "npm:^17.0.3"
     eslint-plugin-react: "npm:^7.35.0"
   peerDependencies:
-    eslint: ^8.5.0
-    prettier: ^3.3.3
-  checksum: 10c0/a4166f067c28ad599d448424e48de6690bff11d6482f71e4e5bc48d7b402b52eef89e54c887439e407a1ab2c7cc0ea883f9e248dad99c382014a98f76b5b160f
+    eslint: ^8.0.0
+    prettier: ^3.0.0
+    typescript: ^5.0.0
+  checksum: 10c0/643cc1e2c3564712f7efd673820b4619224087ce024d9dc1b446ffe4acd2b3d4225c498ea1f41e0a0d52cb777e66b1896b30cddcf9f54b2452f8b5fe566fd6b1
   languageName: node
   linkType: hard
 
-"@zthun/htmlhint-config@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/htmlhint-config@npm:17.0.0"
+"@zthun/htmlhint-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/htmlhint-config@npm:17.0.3"
   peerDependencies:
     htmlhint: ^1.0.0
-  checksum: 10c0/6eac7df83aa21c187f64890a35a8290dfcb3216c866f65ec8ffbe456d6255cdecf003fcef8bc91bba6dbf89b5391d95cd114af6eee7bc231039e0ebc96d54639
+  checksum: 10c0/ea576e03094e3232dfc54307e743f151c76370821eafee9916099f91b129e6be77d216083b0e1c15edf3b24d6666874da56ab77f03d3c6971fd031566e103b5a
   languageName: node
   linkType: hard
 
-"@zthun/lint-janitor-config@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "@zthun/lint-janitor-config@npm:17.0.2"
+"@zthun/lint-janitor-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/lint-janitor-config@npm:17.0.3"
   dependencies:
-    "@zthun/eslint-config": "npm:^17.0.1"
-    "@zthun/eslint-react-config": "npm:^17.0.1"
-    "@zthun/htmlhint-config": "npm:^17.0.0"
-    "@zthun/markdownlint-config": "npm:^17.0.0"
-    "@zthun/prettier-config": "npm:^17.0.0"
-    "@zthun/stylelint-config": "npm:^17.0.0"
-    "@zthun/stylelint-config-less": "npm:^17.0.0"
-    "@zthun/stylelint-config-sass": "npm:^17.0.0"
+    "@zthun/eslint-config": "npm:^17.0.3"
+    "@zthun/eslint-react-config": "npm:^17.0.3"
+    "@zthun/htmlhint-config": "npm:^17.0.3"
+    "@zthun/markdownlint-config": "npm:^17.0.3"
+    "@zthun/prettier-config": "npm:^17.0.3"
+    "@zthun/stylelint-config": "npm:^17.0.3"
+    "@zthun/stylelint-config-less": "npm:^17.0.3"
+    "@zthun/stylelint-config-sass": "npm:^17.0.3"
     eslint: "npm:^8.57.0"
     htmlhint: "npm:^1.1.4"
     markdownlint: "npm:~0.35.0"
@@ -2654,13 +2665,17 @@ __metadata:
     stylelint: "npm:^16.9.0"
   peerDependencies:
     "@zthun/lint-janitor": ">=16.0.0"
-  checksum: 10c0/e929e983cbf537cf7d49e91925170ab33335867cf93995911dfbf588c9ffb43be2c60565d867cebba5b0b467315b68d066e0dabd982428439c45081d9eac8d08
+    typescript: ^5.0.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/914964f1d389418e041c6eecc302c022933c595cfc42df55da65bf35a05820a31732296657ebd14b158d1483e2cc11acc1a48b22b9c3d5c01267525cc9d8c84b
   languageName: node
   linkType: hard
 
-"@zthun/lint-janitor@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "@zthun/lint-janitor@npm:17.0.2"
+"@zthun/lint-janitor@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/lint-janitor@npm:17.0.3"
   dependencies:
     chalk: "npm:^5.3.0"
     cosmiconfig: "npm:^9.0.0"
@@ -2669,67 +2684,70 @@ __metadata:
     glob: "npm:^11.0.0"
     htmlhint: "npm:^1.1.4"
     js-yaml: "npm:^4.1.0"
-    lodash: "npm:^4.17.21"
+    lodash-es: "npm:^4.17.21"
     markdownlint: "npm:~0.35.0"
     prettier: "npm:^3.3.3"
     stylelint: "npm:^16.9.0"
     yargs: "npm:^17.7.2"
   bin:
     lint-janitor: dist/cli.js
-  checksum: 10c0/b74109be30a50a95546fa54bf84d5586be1cecbe02372cf5a7eb5c6cabd22dcca78f036a15bc7e94ee694043e24f5b7f2a8daf6f396ebbedd413972a4209ebf5
+  checksum: 10c0/a43724376589150703b23d453cf8e9a010c64738020a859f1bf591d2a7e033342f06cfa6d1da3c8363c8ea4027698ba31aecbc492528d95db275ed7f29b4a80d
   languageName: node
   linkType: hard
 
-"@zthun/markdownlint-config@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/markdownlint-config@npm:17.0.0"
+"@zthun/markdownlint-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/markdownlint-config@npm:17.0.3"
   peerDependencies:
     markdownlint: ">0.32.0 <1.0.0"
-  checksum: 10c0/cc627ef61c297e8737ab12eeb47742ac6b8fec566ef6fbc16500a23ef5f1f0b1a2e7d54c1970b23379651fbeb6b21e29c7d4ff71f52cd8d47176ccde7d0a78fd
+  checksum: 10c0/67c02fcfd3d6da23908ce523f3a17f596a403e0bb98091274b3a11d77bab893177b7216fb67b50ab8952a69b848e500d73b256819a7948fb04a550480c18dab1
   languageName: node
   linkType: hard
 
-"@zthun/prettier-config@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/prettier-config@npm:17.0.0"
+"@zthun/prettier-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/prettier-config@npm:17.0.3"
   peerDependencies:
-    prettier: ^3.1.1
-  checksum: 10c0/b6fe72e3585c87d8379a7ff5bb210f451d7d70dfbce3e67e5f07f9680fd01c36711c8d85c94e19668184cc58bb7285e22c010e639ec93d9cb41a0acea3890605
+    prettier: ^3.0.0
+  checksum: 10c0/7ccec2cc2e5b539552463d212e85a7faa4d717cb04752caf508ef6b67b784749ee6f855a0a5548eb91138533590d513cd0831c547fb3d20f1e52aea1e77405ee
   languageName: node
   linkType: hard
 
-"@zthun/stylelint-config-less@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/stylelint-config-less@npm:17.0.0"
+"@zthun/stylelint-config-less@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/stylelint-config-less@npm:17.0.3"
   dependencies:
-    "@zthun/stylelint-config": "npm:^17.0.0"
+    "@zthun/stylelint-config": "npm:^17.0.3"
     stylelint-config-standard-less: "npm:^3.0.1"
   peerDependencies:
-    stylelint: ^16.2.1
-  checksum: 10c0/916d0ec969b3fe7207f2ccd146e21e605f13cce5f3735ead23fe26ae59e55f2a930f0dd3ca9fed0beb01e363d006027daa01afd23d58b12dd134b7ead07871a3
+    postcss: ^8.0.0
+    stylelint: ^16.0.0
+  checksum: 10c0/93d8b017d7ff47617fd8cf97c3c8f89332626b408fbec7bd096f9cfae8eced589056eb6f548fc3468d27f00917e5ba03a6d264c95ed5293895174470fd56c342
   languageName: node
   linkType: hard
 
-"@zthun/stylelint-config-sass@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/stylelint-config-sass@npm:17.0.0"
+"@zthun/stylelint-config-sass@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/stylelint-config-sass@npm:17.0.3"
   dependencies:
-    "@zthun/stylelint-config": "npm:^17.0.0"
+    "@zthun/stylelint-config": "npm:^17.0.3"
     stylelint-config-standard-scss: "npm:^13.1.0"
   peerDependencies:
-    stylelint: ^16.2.1
-  checksum: 10c0/c56cd3e6a96f0a22875a0c016c5223b081ed9bec960d73243faf0871e6ec4fc61f82e285cd707133c517a510fa7447de1d4567c29c5a267c3a6442129afd7c9b
+    postcss: ^8.0.0
+    stylelint: ^16.0.0
+  checksum: 10c0/fc8df27af45299982651036053fd8890fabbc5dafbcb266161b8d26410eed549d50c3d2f95b9fb7c73dd3050be906ace0520a69355f5b4d03ca6ed714776e65f
   languageName: node
   linkType: hard
 
-"@zthun/stylelint-config@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@zthun/stylelint-config@npm:17.0.0"
+"@zthun/stylelint-config@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@zthun/stylelint-config@npm:17.0.3"
   dependencies:
     stylelint-config-standard: "npm:^36.0.1"
   peerDependencies:
-    stylelint: ^16.2.1
-  checksum: 10c0/3eb86f4d9c636edd6bd495581920212ed344af6b1a82bb79ecf669a35aa4888f3c2bc806c325ed9056b5353f36dba1fdde60375c820cf4f148cd8578300f9f37
+    postcss: ^8.0.0
+    stylelint: ^16.0.0
+  checksum: 10c0/3c8dae274a3f78e9d3a92fd605012833da714658580b1478cd8e64d17ca7b08c48b8ce8351696013b18653be518cf5004fd9d2b80351e535b75e26e6738cccff
   languageName: node
   linkType: hard
 
@@ -7073,6 +7091,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.21":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: 10c0/fb407355f7e6cd523a9383e76e6b455321f0f153a6c9625e21a8827d10c54c2a2341bd2ae8d034358b60e07325e1330c14c224ff582d04612a46a4f0479ff2f2
+  languageName: node
+  linkType: hard
+
 "lodash.camelcase@npm:^4.3.0":
   version: 4.3.0
   resolution: "lodash.camelcase@npm:4.3.0"
@@ -10213,16 +10238,16 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.4.1"
     "@commitlint/config-conventional": "npm:^19.4.1"
-    "@types/node": "npm:^22.5.1"
+    "@types/node": "npm:^22.5.2"
     "@vitest/coverage-istanbul": "npm:^2.0.5"
-    "@zthun/lint-janitor": "npm:^17.0.2"
-    "@zthun/lint-janitor-config": "npm:^17.0.2"
+    "@zthun/lint-janitor": "npm:^17.0.3"
+    "@zthun/lint-janitor-config": "npm:^17.0.3"
     husky: "npm:^9.1.5"
     lerna: "npm:^8.1.8"
     rimraf: "npm:^6.0.1"
     typescript: "npm:~5.5.4"
     vite: "npm:^5.4.2"
-    vite-plugin-dts: "npm:^4.0.3"
+    vite-plugin-dts: "npm:^4.1.0"
     vite-plugin-externalize-deps: "npm:^0.8.0"
     vite-tsconfig-paths: "npm:^5.0.1"
     vitest: "npm:^2.0.5"
@@ -10654,9 +10679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-dts@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "vite-plugin-dts@npm:4.0.3"
+"vite-plugin-dts@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "vite-plugin-dts@npm:4.1.0"
   dependencies:
     "@microsoft/api-extractor": "npm:7.47.4"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -10674,7 +10699,7 @@ __metadata:
   peerDependenciesMeta:
     vite:
       optional: true
-  checksum: 10c0/b9bc7e3bf6e5c55beded0a4d54c408fb20f94670717194f80cce48610e4eecf849ea5261fe82d540d0c5a6967b175bd2848c016c2f11923fc686db04c12bb4f2
+  checksum: 10c0/acd095cfc6087f5fb57175b83cba781e8681cb800d842aace4b58e3c99939c51298e599a177de7bf3f70d140a6c888fa0fded7efe2bc80a0c03cb8dc698948fa
   languageName: node
   linkType: hard
 
