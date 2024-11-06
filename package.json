@@ -22,21 +22,21 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.4.1",
-    "@commitlint/config-conventional": "^19.4.1",
-    "@types/node": "^22.5.2",
-    "@vitest/coverage-istanbul": "^2.0.5",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/node": "^22.9.0",
+    "@vitest/coverage-istanbul": "^2.1.4",
     "@zthun/lint-janitor": "^17.0.3",
     "@zthun/lint-janitor-config": "^17.0.3",
-    "husky": "^9.1.5",
-    "lerna": "^8.1.8",
+    "husky": "^9.1.6",
+    "lerna": "^8.1.9",
     "rimraf": "^6.0.1",
-    "typescript": "~5.5.4",
-    "vite": "^5.4.2",
-    "vite-plugin-dts": "^4.1.0",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.3.0",
     "vite-plugin-externalize-deps": "^0.8.0",
-    "vite-tsconfig-paths": "^5.0.1",
-    "vitest": "^2.0.5"
+    "vite-tsconfig-paths": "^5.1.0",
+    "vitest": "^2.1.4"
   },
   "packageManager": "yarn@4.4.1"
 }
