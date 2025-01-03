@@ -7,6 +7,5 @@
   "exclude": ["./"],
   "excludeNotDocumented": true,
   "name": "Trilean",
-  "plugin": ["typedoc-plugin-extras"],
   "favicon": "public/images/svg/trilean.svg"
 }
