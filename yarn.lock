@@ -2923,13 +2923,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/trilean-web@workspace:packages/trilean-web"
   dependencies:
-    "@zthun/trilean": "npm:^2.0.4"
+    "@zthun/trilean": "npm:^2.0.5"
     typedoc: "npm:^0.27.6"
     typescript: "npm:~5.7.2"
   languageName: unknown
   linkType: soft
 
-"@zthun/trilean@npm:^2.0.4, @zthun/trilean@workspace:packages/trilean":
+"@zthun/trilean@npm:^2.0.5, @zthun/trilean@workspace:packages/trilean":
   version: 0.0.0-use.local
   resolution: "@zthun/trilean@workspace:packages/trilean"
   dependencies:
