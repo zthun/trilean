@@ -13,6 +13,6 @@
     "skipLibCheck": true,
     "jsx": "react",
     "target": "es5",
-    "module": "commonjs"
+    "module": "ES2020"
   }
 }
