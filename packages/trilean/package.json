@@ -25,10 +25,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^5.4.11",
-    "vitest": "^2.1.8",
-    "vitest-mock-extended": "^2.0.2"
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4",
+    "vitest-mock-extended": "^3.1.0"
   },
   "files": [
     "dist"
