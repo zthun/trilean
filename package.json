@@ -24,8 +24,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@types/node": "^22.15.21",
-    "@vitest/coverage-istanbul": "^3.1.4",
+    "@types/node": "^22.15.30",
+    "@vitest/coverage-istanbul": "^3.2.3",
     "@zthun/lint-janitor": "^18.1.0",
     "@zthun/lint-janitor-config": "^18.1.0",
     "husky": "^9.1.7",
@@ -36,7 +36,10 @@
     "vite-plugin-dts": "^4.5.4",
     "vite-plugin-external": "^6.2.2",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.1.4"
+    "vitest": "^3.2.3"
   },
-  "packageManager": "yarn@4.6.0"
+  "resolutions": {
+    "vite": "^6.0.0"
+  },
+  "packageManager": "yarn@4.9.2"
 }
