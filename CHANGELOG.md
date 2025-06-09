@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.7](https://github.com/zthun/trilean/compare/v2.0.6...v2.0.7) (2025-06-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* update module resolution to node next
+
+### Build System
+
+* update module resolution to node next ([a280072](https://github.com/zthun/trilean/commit/a280072d5e61523fb107fa8d8434e18ced247e5e))
+
+
+
 ## [2.0.6](https://github.com/zthun/trilean/compare/v2.0.5...v2.0.6) (2025-05-23)
 
 **Note:** Version bump only for package trilean
