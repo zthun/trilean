@@ -1,2 +1,4 @@
-import { defineLibrary } from '../../.config/vite-library';
-export default defineLibrary(__dirname);
+import { ZViteConfigBuilder } from "@zthun/janitor-build-config/vite";
+import { defineConfig } from "vite";
+
+export default defineConfig(new ZViteConfigBuilder().library().build());
