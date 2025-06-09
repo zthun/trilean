@@ -29,6 +29,7 @@
     "@zthun/janitor-build-config": "^19.1.5",
     "@zthun/janitor-lint": "^19.1.5",
     "@zthun/janitor-lint-config": "^19.1.5",
+    "@zthun/janitor-options": "^19.1.5",
     "husky": "^9.1.7",
     "lerna": "^8.2.2",
     "rimraf": "^6.0.1",

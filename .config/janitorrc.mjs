@@ -1,49 +1,25 @@
-const generated = [
-  "**/CHANGELOG.md",
-  "packages/**/dist/**",
-  "packages/**/docs/**",
-  "node_modules/**",
-  "packages/**/node_modules/**",
-  "package-lock.json",
-  ".yarnrc.yml",
-];
-const partialGenerated = ["cspell.json", "lerna.json"];
+import {
+  ZJanitorOptionsBuilder,
+  ZJanitorOptionsLintBuilder,
+} from "@zthun/janitor-options";
 
-const esFiles = ["*.ts", "packages/**/src/**/*.ts", "packages/**/src/**/*.mts"];
-const markdownFiles = ["*.md", "packages/**/*.md"];
-const jsonFiles = ["*.json", "packages/**/*.json"];
-const yamlFiles = [".circleci/config.yml"];
-const prettyFiles = []
-  .concat(esFiles)
-  .concat(markdownFiles)
-  .concat(jsonFiles)
-  .concat(yamlFiles);
-const spellingFiles = []
-  .concat(esFiles)
-  .concat(markdownFiles)
-  .concat(jsonFiles)
-  .concat(yamlFiles);
-
-const esFilesExclude = generated;
-const markdownFilesExclude = generated;
-const jsonFilesExclude = generated;
-const yamlFilesExclude = generated;
-const prettyFilesExclude = generated.concat(partialGenerated);
-const spellingFilesExclude = generated.concat(partialGenerated);
-
-export default {
-  lint: {
-    esFiles,
-    esFilesExclude,
-    markdownFiles,
-    markdownFilesExclude,
-    jsonFiles,
-    jsonFilesExclude,
-    yamlFiles,
-    yamlFilesExclude,
-    prettyFiles,
-    prettyFilesExclude,
-    spellingFiles,
-    spellingFilesExclude,
-  },
-};
+const lint = new ZJanitorOptionsLintBuilder()
+  .esFile("*.{js,cjs,mjs,ts,mts}")
+  .esFile("packages/**/src/**/*.{js,cjs,mjs,ts,mts}")
+  .markdownFile("*.md")
+  .markdownFile("packages/**/*.md")
+  .jsonFile("*.json", "packages/**/*/json")
+  .yamlFile(".circleci/config.yml")
+  .generatePrettyFiles()
+  .generateSpellingFiles()
+  .excludeAll("**/CHANGELOG.md")
+  .excludeAll("packages/**/dist/**")
+  .excludeAll("packages/**/docs/**")
+  .excludeAll("node_modules/**")
+  .excludeAll("packages/**/node_modules/**")
+  .excludeAll("package-lock.json")
+  .excludeAll(".yarnrc.yml")
+  .excludeAll("cspell.json")
+  .excludeAll("lerna.json")
+  .build();
+export default new ZJanitorOptionsBuilder().lint(lint).build();

@@ -11451,6 +11451,7 @@ __metadata:
     "@zthun/janitor-build-config": "npm:^19.1.5"
     "@zthun/janitor-lint": "npm:^19.1.5"
     "@zthun/janitor-lint-config": "npm:^19.1.5"
+    "@zthun/janitor-options": "npm:^19.1.5"
     husky: "npm:^9.1.7"
     lerna: "npm:^8.2.2"
     rimraf: "npm:^6.0.1"
