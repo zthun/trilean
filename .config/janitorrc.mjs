@@ -32,16 +32,18 @@ const prettyFilesExclude = generated.concat(partialGenerated);
 const spellingFilesExclude = generated.concat(partialGenerated);
 
 export default {
-  esFiles,
-  esFilesExclude,
-  markdownFiles,
-  markdownFilesExclude,
-  jsonFiles,
-  jsonFilesExclude,
-  yamlFiles,
-  yamlFilesExclude,
-  prettyFiles,
-  prettyFilesExclude,
-  spellingFiles,
-  spellingFilesExclude,
+  lint: {
+    esFiles,
+    esFilesExclude,
+    markdownFiles,
+    markdownFilesExclude,
+    jsonFiles,
+    jsonFilesExclude,
+    yamlFiles,
+    yamlFilesExclude,
+    prettyFiles,
+    prettyFilesExclude,
+    spellingFiles,
+    spellingFilesExclude,
+  },
 };
