@@ -9,7 +9,6 @@
     "url": "https://github.com/zthun/trilean",
     "directory": "packages/trilean-web"
   },
-  "main": "./dist/main.js",
   "scripts": {
     "build": "typedoc"
   },
@@ -17,6 +16,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@zthun/janitor-build-config": "^19.1.5",
     "@zthun/trilean": "^2.0.6",
     "typedoc": "^0.28.5",
     "typescript": "~5.8.3"

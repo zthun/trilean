@@ -3285,6 +3285,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/trilean-web@workspace:packages/trilean-web"
   dependencies:
+    "@zthun/janitor-build-config": "npm:^19.1.5"
     "@zthun/trilean": "npm:^2.0.6"
     typedoc: "npm:^0.28.5"
     typescript: "npm:~5.8.3"
@@ -3295,6 +3296,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/trilean@workspace:packages/trilean"
   dependencies:
+    "@zthun/janitor-build-config": "npm:^19.1.5"
     typescript: "npm:~5.8.3"
     vite: "npm:^6.3.5"
     vitest: "npm:^3.2.3"

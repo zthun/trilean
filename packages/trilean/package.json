@@ -10,11 +10,11 @@
     "directory": "packages/trilean"
   },
   "type": "module",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "exports": {
-    "types": "./dist/index.d.ts",
+    "types": "./dist/index.d.mts",
     "require": "./dist/index.cjs",
     "import": "./dist/index.js"
   },
@@ -25,6 +25,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@zthun/janitor-build-config": "^19.1.5",
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
     "vitest": "^3.2.3",
