@@ -24,24 +24,21 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@types/node": "^24.0.3",
+    "@types/node": "^24.0.14",
     "@vitest/coverage-v8": "^3.2.4",
-    "@zthun/janitor-build-config": "^19.2.4",
-    "@zthun/janitor-lint": "^19.2.4",
-    "@zthun/janitor-lint-config": "^19.2.5",
-    "@zthun/janitor-options": "^19.2.4",
+    "@zthun/janitor-build-config": "^19.3.1",
+    "@zthun/janitor-lint": "^19.3.1",
+    "@zthun/janitor-lint-config": "^19.3.1",
+    "@zthun/janitor-options": "^19.3.1",
     "husky": "^9.1.7",
-    "lerna": "^8.2.2",
+    "lerna": "^8.2.3",
     "rimraf": "^6.0.1",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5",
+    "vite": "^7.0.5",
     "vite-plugin-dts": "^4.5.4",
     "vite-plugin-external": "^6.2.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4"
-  },
-  "resolutions": {
-    "vite": "^6.0.0"
   },
   "packageManager": "yarn@4.9.2"
 }

@@ -16,9 +16,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@zthun/janitor-build-config": "^19.2.4",
+    "@zthun/janitor-build-config": "^19.3.1",
     "@zthun/trilean": "^2.0.9",
-    "typedoc": "^0.28.5",
+    "typedoc": "^0.28.7",
     "typescript": "~5.8.3"
   },
   "files": [
