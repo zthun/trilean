@@ -3763,13 +3763,13 @@ __metadata:
   resolution: "@zthun/trilean-web@workspace:packages/trilean-web"
   dependencies:
     "@zthun/janitor-build-config": "npm:^19.4.1"
-    "@zthun/trilean": "npm:^2.0.13"
+    "@zthun/trilean": "npm:^2.0.14"
     typedoc: "npm:^0.28.14"
     typescript: "npm:~5.9.3"
   languageName: unknown
   linkType: soft
 
-"@zthun/trilean@npm:^2.0.13, @zthun/trilean@workspace:packages/trilean":
+"@zthun/trilean@npm:^2.0.14, @zthun/trilean@workspace:packages/trilean":
   version: 0.0.0-use.local
   resolution: "@zthun/trilean@workspace:packages/trilean"
   dependencies:
