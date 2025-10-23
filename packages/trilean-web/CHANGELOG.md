@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.14](https://github.com/zthun/trilean/compare/v2.0.13...v2.0.14) (2025-10-23)
+
+**Note:** Version bump only for package @zthun/trilean-web
+
+
+
+
+
 ## [2.0.13](https://github.com/zthun/trilean/compare/v2.0.12...v2.0.13) (2025-10-04)
 
 **Note:** Version bump only for package @zthun/trilean-web
