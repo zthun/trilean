@@ -25,7 +25,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@zthun/janitor-build-config": "^19.5.2",
+    "@zthun/janitor-build-config": "^19.5.3",
     "typescript": "~5.9.3",
     "vite": "^7.2.7",
     "vitest": "^4.0.15",
