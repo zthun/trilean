@@ -30,6 +30,7 @@
     "@zthun/janitor-lint": "^19.5.4",
     "@zthun/janitor-lint-config": "^19.5.4",
     "@zthun/janitor-options": "^19.5.4",
+    "@zthun/janitor-ts-config": "^19.5.3",
     "husky": "^9.1.7",
     "lerna": "^9.0.3",
     "rimraf": "^6.1.2",

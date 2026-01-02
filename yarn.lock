@@ -3692,6 +3692,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zthun/janitor-ts-config@npm:^19.5.3":
+  version: 19.5.3
+  resolution: "@zthun/janitor-ts-config@npm:19.5.3"
+  peerDependencies:
+    typescript: ^5.0.0
+  checksum: 10c0/471e9e97bbdda69e30dd3e4f01432975ff8eb7625b3b4751d7118f585df46bf1c70ff46bc7e795b46f454842d81d63eef9ef598715b89264a4c979be2395f1cb
+  languageName: node
+  linkType: hard
+
 "@zthun/trilean-web@workspace:packages/trilean-web":
   version: 0.0.0-use.local
   resolution: "@zthun/trilean-web@workspace:packages/trilean-web"
@@ -11807,6 +11816,7 @@ __metadata:
     "@zthun/janitor-lint": "npm:^19.5.4"
     "@zthun/janitor-lint-config": "npm:^19.5.4"
     "@zthun/janitor-options": "npm:^19.5.4"
+    "@zthun/janitor-ts-config": "npm:^19.5.3"
     husky: "npm:^9.1.7"
     lerna: "npm:^9.0.3"
     rimraf: "npm:^6.1.2"
