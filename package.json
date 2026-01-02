@@ -22,20 +22,20 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.2.0",
-    "@commitlint/config-conventional": "^20.2.0",
-    "@types/node": "^25.0.2",
-    "@vitest/coverage-v8": "^4.0.15",
-    "@zthun/janitor-build-config": "^19.5.3",
-    "@zthun/janitor-lint": "^19.5.3",
-    "@zthun/janitor-lint-config": "^19.5.3",
-    "@zthun/janitor-options": "^19.5.3",
+    "@commitlint/cli": "^20.3.0",
+    "@commitlint/config-conventional": "^20.3.0",
+    "@types/node": "^25.0.3",
+    "@vitest/coverage-v8": "^4.0.16",
+    "@zthun/janitor-build-config": "^19.5.4",
+    "@zthun/janitor-lint": "^19.5.4",
+    "@zthun/janitor-lint-config": "^19.5.4",
+    "@zthun/janitor-options": "^19.5.4",
     "husky": "^9.1.7",
     "lerna": "^9.0.3",
     "rimraf": "^6.1.2",
     "typescript": "~5.9.3",
-    "vite": "^7.2.7",
-    "vitest": "^4.0.15"
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
   },
   "packageManager": "yarn@4.12.0"
 }
