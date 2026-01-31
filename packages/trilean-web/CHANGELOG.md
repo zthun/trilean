@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.0.19 (2026-01-31)</small>
+
+* build: update outdated packages ([7d04b81](https://github.com/zthun/trilean/commit/7d04b81))
+
+
+
+
+
 ## [2.0.18](https://github.com/zthun/trilean/compare/v2.0.17...v2.0.18) (2026-01-02)
 
 **Note:** Version bump only for package @zthun/trilean-web
