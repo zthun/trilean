@@ -4,10 +4,9 @@
     "@zthun/janitor-ts-config/node.json"
   ],
   "compilerOptions": {
-    "baseUrl": "packages",
     "target": "esnext",
     "paths": {
-      "@zthun/trilean": ["trilean/src/index"]
+      "@zthun/trilean": ["./packages/trilean/src/index.mts"]
     }
   },
   "include": ["**/*.ts", "**/*.mts"]
