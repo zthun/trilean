@@ -16,10 +16,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "@zthun/janitor-build-config": "^20.0.6",
+    "@zthun/janitor-build-config": "^21.0.0",
     "@zthun/trilean": "^2.0.22",
-    "typedoc": "^0.28.19",
-    "typescript": "~6.0.3"
+    "typedoc": "^0.28.20",
+    "typescript": "^6.0.3"
   },
   "files": [
     "dist"
