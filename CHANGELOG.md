@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.23](https://github.com/zthun/trilean/compare/v2.0.22...v2.0.23) (2026-08-09)
+
+### Miscellaneous Chores
+
+- update yarn lockfile [skip ci] ([1023131](https://github.com/zthun/trilean/commit/102313181d0b9f8f1ee208a6b66f4e64256e38d5))
+
+### Build System
+
+- update outdated packages ([08a167e](https://github.com/zthun/trilean/commit/08a167e69d1840380ff34e5931145f14941ea15d))
+- update yarn ([2564e57](https://github.com/zthun/trilean/commit/2564e57d8852c331591dda8f6ed36d9b75c25d1e))
+
 ## [2.0.22](https://github.com/zthun/trilean/compare/v2.0.21...v2.0.22) (2026-05-26)
 
 **Note:** Version bump only for package trilean
