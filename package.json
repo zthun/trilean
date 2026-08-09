@@ -18,8 +18,7 @@
     "lint": "eslint",
     "check": "tsc --noEmit",
     "build": "lerna run build",
-    "make": "yarn clean && yarn lint && yarn check && yarn test && yarn build",
-    "postinstall": "husky install"
+    "make": "yarn clean && yarn lint && yarn check && yarn test && yarn build"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.1",
