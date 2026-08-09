@@ -205,6 +205,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/config-angular-type-enum@npm:^21.0.1":
+  version: 21.0.1
+  resolution: "@commitlint/config-angular-type-enum@npm:21.0.1"
+  checksum: 10c0/f2c6234ebb74fcf44e1c86d52bedaeac0a67de420e3a3128ae4a70b0fa9dcc1aa09e1b5e6ba41f26f590c914aecdd7d55a5f9e25f15cd60875ffb34de6aa9735
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-angular@npm:^21.2.0":
+  version: 21.2.0
+  resolution: "@commitlint/config-angular@npm:21.2.0"
+  dependencies:
+    "@commitlint/config-angular-type-enum": "npm:^21.0.1"
+  checksum: 10c0/56f1e63280be3ffd3c0205358becf00c4fb22ec12fb48104bd4ad41ef422f2de2bd416a097759294baec0ed5a91b71f9566f39915f8fc91de957a5af9dadee68
+  languageName: node
+  linkType: hard
+
 "@commitlint/config-conventional@npm:^21.2.0":
   version: 21.2.0
   resolution: "@commitlint/config-conventional@npm:21.2.0"
@@ -9071,7 +9087,7 @@ __metadata:
   resolution: "trilean@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^21.2.1"
-    "@commitlint/config-conventional": "npm:^21.2.0"
+    "@commitlint/config-angular": "npm:^21.2.0"
     "@types/node": "npm:^26.2.0"
     "@vitest/coverage-v8": "npm:^4.1.10"
     "@zthun/janitor-build-config": "npm:^21.0.0"
