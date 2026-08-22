@@ -1,10 +1,4 @@
-import {
-  ZViteConfigBuilder,
-  ZViteTestBuilder,
-} from "@zthun/janitor-build-config/vite";
+import { projectMonorepo } from "@zthun/janitor-vite";
 import { defineConfig } from "vite";
 
-const test = new ZViteTestBuilder().monorepo().build();
-const config = new ZViteConfigBuilder().test(test).build();
-
-export default defineConfig(config);
+export default defineConfig({ plugins: [projectMonorepo()] });
