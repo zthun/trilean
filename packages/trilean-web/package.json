@@ -1,6 +1,6 @@
 {
   "name": "@zthun/trilean-web",
-  "version": "2.0.26",
+  "version": "2.0.27",
   "description": "A documentation website for @zthun/trilean.",
   "author": "Anthony Bonta",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@zthun/janitor-build-config": "^21.1.3",
-    "@zthun/trilean": "^2.0.26",
+    "@zthun/trilean": "^2.0.27",
     "typedoc": "^0.28.20",
     "typescript": "^6.0.3"
   },
