@@ -1,6 +1,6 @@
 {
   "name": "@zthun/trilean",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "description": "A tri state boolean logic type.",
   "author": "Anthony Bonta",
   "license": "MIT",
