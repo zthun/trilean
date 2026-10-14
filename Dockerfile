@@ -30,9 +30,3 @@ RUN --mount=type=secret,id=GIT_CREDENTIALS,dst=/root/.git-credentials npx lerna 
     git push && \
     git push --tags
 RUN --mount=type=secret,id=NPM_CREDENTIALS,dst=/root/.npmrc npx lerna publish from-package --yes
-
-FROM node:lts-alpine as trilean-web-install
-RUN npm install -g @zthun/trilean-web
-
-FROM nginx:stable-alpine as trilean-web
-COPY --from=trilean-web-install /usr/local/lib/node_modules/@zthun/trilean-web/dist/. /usr/share/nginx/html/
