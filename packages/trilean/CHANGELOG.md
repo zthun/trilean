@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/zthun/trilean/compare/v2.0.28...v3.0.0) (2026-10-14)
+
+### Code Refactoring
+
+- trilean-web is no longer published ([dafcd45](https://github.com/zthun/trilean/commit/dafcd450de61418ffd86022100ae720da8b9c850))
+
+### BREAKING CHANGES
+
+- trilean-web is no longer published. Use the README files instead.
+
 ## [2.0.28](https://github.com/zthun/trilean/compare/v2.0.27...v2.0.28) (2026-10-01)
 
 **Note:** Version bump only for package @zthun/trilean
