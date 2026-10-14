@@ -25,11 +25,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "@zthun/janitor-build-config": "^21.2.4",
-    "@zthun/janitor-vite": "^21.2.3",
+    "@zthun/janitor-vite": "^21.2.5",
     "typescript": "^6.0.3",
-    "vite": "^8.3.1",
-    "vitest": "^5.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4",
     "vitest-mock-extended": "^5.1.1"
   },
   "files": [
