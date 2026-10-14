@@ -53,17 +53,6 @@ jobs:
       - run_docker_target:
           target: release
 
-  dockerize:
-    executor: system
-    steps:
-      - checkout
-      - run:
-          command: |
-            export DOCKER_BUILDKIT=1
-            docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-            docker buildx create --use
-            docker buildx build --target trilean-web -t zthun/trilean-web:latest -t zthun/trilean-web:$(npm show @zthun/trilean-web version) --progress=plain --platform linux/arm64,linux/amd64 --push .
-
 workflows:
   make:
     jobs:
@@ -86,8 +75,3 @@ workflows:
             branches:
               only:
                 - latest
-      - dockerize:
-          context:
-            - credentials
-          requires:
-            - release
